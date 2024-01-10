@@ -1,0 +1,62 @@
+
+
+body {
+    padding-top: 1px; 
+   font-family: Arial, sans-serif;
+  } 
+  footer {
+    background-color: #12deae;
+  
+    bottom: 0; 
+    width: 100%; 
+   } 
+  
+   .card {
+    margin-bottom: 20px;
+  }
+
+   .navbar {
+     box-shadow: 0 4px 6px -6px #222; 
+    background-color: rgba(43, 178, 199, 0.911);
+  }
+  img{
+    width: 250px;
+    height: 250px;
+  }
+  #buy {
+  right: 0px;
+  background-color: #83c72b;
+  }
+#add{
+  background-color: rgb(203, 241, 241);
+  color: black;
+}
+.card-title{
+background-color: rgb(39, 6, 159);
+color: aliceblue;
+}
+  @media screen and (max-width:1200pX){
+    .card-title{
+      width: 35%;
+    }
+  } 
+  @media screen and (max-width:992pX ){
+    .card-title{
+      width: 50%;
+    }
+  } 
+  @media screen and (max-width:786pX){
+    .card-title{
+      width: 60%;
+    }
+  } 
+  @media screen and (max-width:578pX){
+    .card-title{
+      width: 24%;
+    }
+  } 
+  @media screen and (min-width:992pX ){
+    .card-title{
+      width: 30%;
+    }
+  }
